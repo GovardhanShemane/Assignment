@@ -1,0 +1,49 @@
+.recently-activity-container {
+    position: absolute;
+    width: 427px;
+    height: 258px;
+    right: 20px;
+    top: 200px;
+    margin-top:-20px;
+
+    box-sizing: border-box;
+    background: #0A1741;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .time {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+  
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .summary {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .see-all-button {
+    background: #FF5E5E;
+    border: none;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

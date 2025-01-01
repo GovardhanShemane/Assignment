@@ -1,0 +1,16 @@
+
+
+.second-rectangle {
+    width: 1197px;
+    height: 900px;
+    /* margin-left:  250px; */
+    /* margin-top: 0px; */
+    background-color: #fff;
+    padding-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard{
+    color: #161E54;
+    
+  }

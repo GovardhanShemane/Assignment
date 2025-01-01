@@ -1,0 +1,13 @@
+.app {
+  display: flex;
+  flex-direction: row; /* Align components side by side */
+  height: 100vh; /* Full viewport height */
+}
+
+.sidebar {
+  flex: 0 0 242px; /* Fixed width for Sidebar */
+}
+
+.second-rectangle {
+  flex: 1; /* Take up remaining space */
+}

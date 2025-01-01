@@ -1,0 +1,76 @@
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  /* justify-content: center; */
+  margin: 20px;
+}
+
+/* Card Component */
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 20px;
+  gap: 16px;
+
+  /* width: 204px; */
+  height: 136px;
+
+  border-radius: 10px;
+}
+
+/* Title Style */
+.card-title {
+  width: 172px;
+  height: 28px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Count Style */
+.card-count {
+  width: 172px;
+  height: 28px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* Description Style */
+.card-description {
+  width: 172px;
+  height: 24px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
